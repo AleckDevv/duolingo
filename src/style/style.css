@@ -1,0 +1,38 @@
+:root {
+    --bg-primario: #084613;
+    --bg-secundario: #A2E838;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--bg-primario);
+    color: #fff;
+    padding: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pontuacao {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.pontuacao li {
+    font-size: 2rem;
+}
