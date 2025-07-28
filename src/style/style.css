@@ -1,6 +1,6 @@
 :root {
     --bg-primario: #022f17;
-    --bg-secundario: #A2E838;
+    --bg-secundario: #89E219;
 }
 
 html {
@@ -35,3 +35,27 @@ html {
     list-style: none;
 }
 
+
+.secao_unidade {
+    width: 32rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: var(--bg-secundario);
+}
+
+.secao_unidade .container {
+    width: 90%;
+    border-right: 1px solid #000;
+    word-wrap:;
+}
+
+.container h2 {
+    color: yellow;
+    font-size: 2rem;
+}
+
+.container h3 {
+    color: #fff;
+    font-size: 1.8rem;
+}
