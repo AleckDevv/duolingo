@@ -1,5 +1,5 @@
 :root {
-    --bg-primario: #084613;
+    --bg-primario: #022f17;
     --bg-secundario: #A2E838;
 }
 
@@ -15,24 +15,23 @@ html {
 
 
 .cabecalho {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex; */
+    /* justify-content: space-around; */
     background-color: var(--bg-primario);
     color: #fff;
-    padding: 30px;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-between;
+    padding: 3rem;
 }
 
 .pontuacao {
     display: flex;
-    list-style: none;
-    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 1rem; */
 }
 
 .pontuacao li {
+    width: 10rem;
     font-size: 2rem;
+    list-style: none;
 }
+
