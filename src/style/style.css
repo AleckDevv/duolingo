@@ -88,15 +88,10 @@ header {
 .icone::before {
     content: "";
     position: absolute;
-    top: -6px;
-    left: -6px;
-    width: 72px;
-    /* 60 + 6*2 */
-    height: 72px;
+    width: 60px;
+    height: 60px;
     border: 3px solid transparent;
     border-top-color: var(--cor-4);
-    /* cor da borda animada */
-    border-right-color: var(--cor-4);
     border-radius: 50%;
     animation: rotate 3s linear infinite;
     pointer-events: none;
