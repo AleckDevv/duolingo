@@ -39,8 +39,8 @@ Praticar e reforçar os conceitos de:
 
 ## 📸 Prévia
 
-![Versão Celular](./src/preview/versão%20celular.png)
-![Versão Pc](./src/preview/versão%20pc.png)
+![Versão Celular](src/preview/versão%20celular.png)
+![Versão Pc](src/preview/versão%20pc.png)
 ---
 
 ## 🚀 Como Usar
