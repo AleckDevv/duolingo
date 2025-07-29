@@ -197,26 +197,31 @@ footer {
 }
 
 @media (min-width: 1024px) {
-    .secao {
-        width: 50%;
-    }
 
-    .mapa-container {
-        gap: 60px;
-    }
+    .icone::before {
+        width: 70px;
+        height: 70px;
 
-    .icone {
-        width: 80px;
-        height: 80px;
-        font-size: 2rem;
-    }
+        .secao {
+            width: 50%;
+        }
 
-    .cabecalho {
-        padding: 40px;
-    }
+        .mapa-container {
+            gap: 60px;
+        }
 
-    .pontuacao {
-        gap: 50px;
-        font-size: 1.2rem;
+        .icone {
+            width: 80px;
+            height: 80px;
+            font-size: 2rem;
+        }
+
+        .cabecalho {
+            padding: 40px;
+        }
+
+        .pontuacao {
+            gap: 50px;
+            font-size: 1.2rem;
+        }
     }
-}
