@@ -2,7 +2,8 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width='device-width', initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
@@ -14,39 +15,60 @@
     <title>Duolingo</title>
   </head>
   <body>
-    <header class="cabecalho">
-      <nav class="menu">
-        <ul class="pontuacao">
-          <li>
-            <i class="fa-solid fa-flag-usa"></i>
-            100
-          </li>
-          <li>
-            <i class="fa-solid fa-fire"></i>
-            848
-          </li>
-          <li>
-            <i class="fa-solid fa-octagon"></i>
-            102
-          </li>
-          <li>
-            <i class="fa-solid fa-star"></i>
-            Super
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <div class="container">
+      <!-- 
+      container englobando todos os elementos para que fique
+      mais fácil de centralizar eles de forma vertical
+      -->
+      <header>
+        <nav class="menu">
+          <!-- menu para os itens de pontuação -->
+          <ul class="pontuacao">
+            <li>
+              <i class="fa-solid fa-flag-usa"></i>
+              100
+            </li>
+            <li>
+              <i class="fa-solid fa-fire"></i>
+              848
+            </li>
+            <li>
+              <i class="fa-solid fa-octagon"></i>
+              102
+            </li>
+            <li>
+              <i class="fa-solid fa-star"></i>
+              Super
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-    <section class="secao_unidade">
-      <div class="container">
-        <h2>Seção 7, Unidde 2</h2>
-        <h3>Permissão: Sugira alternativas</h3>
+      <div class="secao">
+        <h1>SEÇÃO 7, UNIDADE 2</h1>
+        <strong>Permissão: Sugira alternativas</strong>
       </div>
-      
-      <div class="book">
-        <i class="fa-solid fa-book"></i>
+
+      <div class="mapa-container">
+        <!-- itens de evolução -->
+        <div class="icone esquerda">📖</div>
+        <div class="icone direita">⭐</div>
+        <div class="icone esquerda">🎧</div>
+        <div class="icone direita">🎁</div>
+        <div class="icone esquerda">🥊</div>
+        <div class="icone direita">⭐</div>
+        <div class="icone esquerda">🏆</div>
       </div>
-    </section>
+
+      <footer>
+        <div class="footer-icon" style="background-color: #f44336"></div>
+        <div class="footer-icon" style="background-color: #ff9800"></div>
+        <div class="footer-icon" style="background-color: #2196f3"></div>
+        <div class="footer-icon" style="background-color: #4caf50"></div>
+        <div class="footer-icon" style="background-color: #9c27b0"></div>
+      </footer>
+    </div>
+
     <script src="src/script/script.js"></script>
   </body>
 </html>
