@@ -70,6 +70,7 @@ header {
 }
 
 .icone {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +82,48 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     transition: all ease-in-out 0.2s;
+    animation: breathing 3s infinite ease-in-out;
 }
+
+.icone::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    width: 72px;
+    /* 60 + 6*2 */
+    height: 72px;
+    border: 3px solid transparent;
+    border-top-color: var(--cor-4);
+    /* cor da borda animada */
+    border-right-color: var(--cor-4);
+    border-radius: 50%;
+    animation: rotate 3s linear infinite;
+    pointer-events: none;
+    z-index: 1;
+}
+
+@keyframes breathing {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.08);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
 
 .icone:hover {
     transform: scale(1.3);
